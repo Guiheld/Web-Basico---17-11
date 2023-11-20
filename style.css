@@ -1,0 +1,91 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.Menu {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 50px;
+  background-color: #80a7b3;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.Menu a {
+  font-family: Arial, Times New Roman;
+  text-decoration: none;
+  padding: 10px;
+  color: #ffffff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.ImgDIv{
+  width: 860;
+  height: 430;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  padding: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ContainerUm{
+  position:fixed;
+  padding: 9px;
+  border-radius: 9px;
+  background-color: #9bbfca;
+  width: 100%;
+  height: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.ContainerDois {
+  display: flex;
+  flex-direction: row;
+}
+
+.Coluna1, .Coluna2, .Coluna3 {
+  text-align: center;
+  font-family: Arial, Times New Roman;
+  text-decoration: none;
+  flex-basis: 33.33%;
+  border: 5px solid #80a7b3;
+  background-color: #edf9fd;
+  padding: 20px;
+  border-radius: 9px;
+  font-size: 15px;
+  color: #393737;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Coluna1:hover, .Coluna2:hover, .Coluna3:hover {
+  transform: scale(103%);
+}
+
+.ContadorConteiner {
+  border-radius: 9px;
+  width: 20%;
+  height: 10%;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 5px solid #80a7b3;
+  background-color: #edf9fd;
+  font-family: Arial, Times New Roman;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Contador {
+  text-align: center;
+}
